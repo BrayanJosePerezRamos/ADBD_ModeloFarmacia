@@ -55,10 +55,13 @@ sus atributos son:
 ## Relaciones
 ### Cliente - Compra - Medicamento
 Esta relación se encarga de almacenar la información de las compras realizadas por los clientes, tanto los clientes normales como los creditarios.<br>
-<div style="text-align: center;">
-  <img src="Images/ClienteMedicamento.png" alt="Relación Cliente - Compra - Medicamento" style="width:90%;"><br>
+<p align="center">
+  <img src="Images/ClienteMedicamento.png" alt="Relación Cliente - Compra - Medicamento" style="width:90%;">
+</p>
+<p align="center">
   <em>Figura 1: Relación Cliente - Compra - Medicamento</em>
-</div>
+</p>
+<br>
 
 **Cardinalidad**: Un cliente puede comprar uno o varios medicamentos, y un medicamento puede ser comprado por uno o varios clientes.
 
@@ -68,19 +71,25 @@ La relación tiene inherente los siguientes atributos:
 
 ### Laboratorio - Provee - Medicamento
 Esta relación se encarga de almacenar la información de los medicamentos que provee cada laboratorio.<br>
-<div style="text-align: center;">
-  <img src="Images/MedicamentosLaboratorio.png" alt="Relación Laboratorio - Provee - Medicamento" style="width:30%;"><br>
+<p align="center">
+  <img src="Images/MedicamentosLaboratorio.png" alt="Relación Laboratorio - Provee - Medicamento" style="width:30%;">
+</p>
+<p align="center">
   <em>Figura 2: Relación Laboratorio - Provee - Medicamento</em>
-</div>
+</p>
+<br>
 
 **Cardinalidad**: Un laboratorio puede prpveer uno o varios medicamentos (1,N), y un medicamento puede ser provisto por uno o varios laboratorios (1,N).
 
 ### Medicamento - Pertenece - FamiliaMedicamento
 Esta relación se encarga de almacenar la información de las familias de medicamentos a las que pertenece cada medicamento.<br>
-<div style="text-align: center;">
-  <img src="Images/MedicamentosFamilia.png" alt="Relación Medicamento - Pertenece - FamiliaMedicamento" style="width:60%;"><br>
+<p align="center">
+  <img src="Images/MedicamentosFamilia.png" alt="Relación Medicamento - Pertenece - FamiliaMedicamento" style="width:60%;">
+</p>
+<p align="center">
   <em>Figura 3: Relación Medicamento - Pertenece - FamiliaMedicamento</em>
-</div>
+</p>
+<br>
 
 **Cardinalidad**: Un medicamento puede pertenecer a una o varias familias de medicamentos, y una familia de medicamentos puede tener uno o varios medicamentos.
 
